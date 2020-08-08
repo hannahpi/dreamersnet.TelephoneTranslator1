@@ -25,7 +25,7 @@ public class TelephoneTranslator {
 				//     if A = 0 in our array, B = 1, C = 2, D = 3, E = 4, F = 5
 				//     replacement[5] =  '3'
 				letterValue = (int) ch - (int) 'A';
-				translatedNumber.append(replacement[(int) ch - (int) 'A']);
+				translatedNumber.append(letterValue);
 			} else {
 				translatedNumber.append(ch);
 			}
